@@ -17,6 +17,10 @@ import numpy as np
 data = None
 
 # YOUR CODE HERE 1
+data=pd.read_table("data/1091402.txt",sep='\s+',na_values='-9999')
+data=data.drop(0)
+print(data.head)
+print(data.tail)
 
 # ### Part 2 
 # 
